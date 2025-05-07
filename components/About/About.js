@@ -1,6 +1,9 @@
 import Discover from "./Hero/Discover";
+import Founder from "./Hero/Founder";
 import Hero from "./Hero/Hero";
 import Story from "./Hero/Story";
+import VisitUs from "./Hero/VisitUs";
+import WhyChooseUs from "./Hero/WhyChooseUs";
 
 export default function About() {
     return (
@@ -9,6 +12,9 @@ export default function About() {
           <Hero />
           <Discover />
           <Story />
+          <WhyChooseUs />
+          <VisitUs />
+          <Founder />
         </div>
     )
   }
