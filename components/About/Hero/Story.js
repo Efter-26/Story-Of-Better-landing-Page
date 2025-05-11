@@ -114,7 +114,7 @@ export default function Story() {
                         <Image
                             src="/images/values.jpg"
                             alt="Our Values"
-                            width={500}
+                            width={700}
                             height={500}
                             className="rounded-xl shadow-lg object-cover"
                         />

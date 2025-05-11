@@ -34,7 +34,7 @@ export default function WhyChooseUs() {
   return (
     <section className="py-20 bg-sky-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 className="text-4xl font-bold text-gray-800 mb-12">Why Choose Us</h2>
+        <h2 className="text-4xl font-bold text-section_titile mb-12">Why Choose Us</h2>
 
         <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
           {chooseUsData.map((item, index) => (

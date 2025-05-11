@@ -1,3 +1,4 @@
+import Footer from "../Footer/Footer";
 import Discover from "./Hero/Discover";
 import Founder from "./Hero/Founder";
 import Hero from "./Hero/Hero";
@@ -15,6 +16,7 @@ export default function About() {
           <WhyChooseUs />
           <VisitUs />
           <Founder />
+          <Footer />
         </div>
     )
   }

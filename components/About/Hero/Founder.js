@@ -9,19 +9,19 @@ export default function Founder() {
 
                 <div className="md:w-1/3 w-full flex justify-center md:justify-start">
                     <motion.div
-                        className="flex flex-col justify-center h-full md:h-[400px]"
+                        className="flex flex-col justify-center h-full md:h-[300px]"
                         initial={{ opacity: 0, y: 100 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.7, ease: "easeOut" }}
                         viewport={{ once: false, amount: 0.5 }}
                     >
-                        <h2 className="text-4xl md:text-5xl font-bold text-center md:text-left text-yellow-700">
-                            Meet the <span className="text-lime-700">Founders</span>
+                        <h2 className="text-4xl md:text-5xl font-bold text-center md:text-left text-gray-800">
+                            Meet the <span className="text-green-700">Founders</span>
                         </h2>
                     </motion.div>
                 </div>
 
-                
+
                 <div className="md:w-2/3 w-full grid grid-cols-1 sm:grid-cols-2 gap-7 place-items-center">
 
                     {[
@@ -39,7 +39,7 @@ export default function Founder() {
                         },
                         {
                             name: "Faizul Absar",
-                            title: "CFO",
+                            title: "Head of Supply Chain",
                             phone: "+880 1881-896962",
                             email: "fabser19@gmail.com",
                         },
