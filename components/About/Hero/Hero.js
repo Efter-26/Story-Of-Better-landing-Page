@@ -1,8 +1,13 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Lottie from "lottie-react";
+import dynamic from 'next/dynamic';
 import animationData from "@/public/videos/better-animation.json";
+
+
+const LottiePlayer = dynamic(() => import('@/components/About/LottieFiles/LottiePlayer'), {
+  ssr: false,
+});
 
 export default function Hero() {
   return (
@@ -29,7 +34,7 @@ export default function Hero() {
           transition={{ duration: 1 }}
           className="mt-10 md:mt-0 md:w-2/4 w-full flex justify-center"
         >
-          <Lottie
+          <LottiePlayer
             animationData={animationData}
             loop
             autoplay
