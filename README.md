@@ -47,12 +47,17 @@ The site is deployed on **Netlify** and connected to a custom Express.js backend
 ## 🗃️ Folder Structure (Frontend)
 ```
 better-project/
-├── aboutbetter/           # frontend
-│   └── ...
-├── better-api/            # backend
-│   ├── server.js
-│   ├── routes/
-│   ├── models/
-│   └── ...
-└────────
+├── aboutbetter/ # Frontend (Next.js)
+│ ├── app/ # App Router & Pages
+│ ├── components/ # UI Components like Navbar, ContactPage, etc.
+│ ├── public/ # Static assets like images
+│ ├── styles/ # CSS/Tailwind styles
+│ └── ...
+├── better-api/ # Backend (Express + MongoDB)
+│ ├── server.js # Main server file
+│ ├── routes/ # API route handlers (e.g., /get-founders, /contact)
+│ ├── models/ # Mongoose models (e.g., Founder.js, Contact.js)
+│ ├── utils/ # Database connection and utilities
+│ └── ...
+└── .gitignore # Files to ignore in Git
 ```
