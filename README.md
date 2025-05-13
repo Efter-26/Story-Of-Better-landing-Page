@@ -45,6 +45,7 @@ The site is deployed on **Netlify** and connected to a custom Express.js backend
 - **CORS**, **body-parser**, **dotenv** for middleware and configs
 
 ## 🗃️ Folder Structure (Frontend)
+```
 better-project/
 ├── aboutbetter/           # frontend
 │   └── ...
@@ -54,3 +55,4 @@ better-project/
 │   ├── models/
 │   └── ...
 └────────
+```
