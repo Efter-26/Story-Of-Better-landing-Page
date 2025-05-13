@@ -1,4 +1,4 @@
-# 🌱 Better Startup - Landing Page
+# 🌱 Better - Simple Web Page
 
 Welcome to **Better**, a sleek and responsive simple page for a fictional built using **Next.js**, **Tailwind CSS**, and **MongoDB**. The app integrates a custom backend API to manage founder profiles and contact messages.
 
