@@ -43,3 +43,14 @@ The site is deployed on **Netlify** and connected to a custom Express.js backend
 - **Express.js**
 - **MongoDB** (accessed using MongoDB Compass)
 - **CORS**, **body-parser**, **dotenv** for middleware and configs
+
+## 🗃️ Folder Structure (Frontend)
+better-project/
+├── aboutbetter/           # frontend
+│   └── ...
+├── better-api/            # backend
+│   ├── server.js
+│   ├── routes/
+│   ├── models/
+│   └── ...
+└──
