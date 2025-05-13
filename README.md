@@ -44,7 +44,7 @@ The goal of this project is to create a **fully functional Web page** that:
 
 ---
 
-## 🗃️ Folder Structure (Frontend)
+## 🗃️ Folder Structure
 ```
 BETTEREMART/
 ├── aboutbetter/ # Frontend (Next.js)
