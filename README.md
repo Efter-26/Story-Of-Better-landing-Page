@@ -53,4 +53,4 @@ better-project/
 │   ├── routes/
 │   ├── models/
 │   └── ...
-└──
+└────────
