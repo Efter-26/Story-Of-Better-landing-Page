@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌱 Better - Simple Web Page
 
-## Getting Started
+Welcome to **Better**, a sleek and responsive simple page for a fictional built using **Next.js**, **Tailwind CSS**, and **MongoDB**. The app integrates a custom backend API to manage founder profiles and contact messages.
 
-First, run the development server:
+🔗 **Live Site**: [https://ornate-kringle-858b0e.netlify.app](https://ornate-kringle-858b0e.netlify.app)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📌 Overview
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+The goal of this project is to create a **fully functional Web page**:
+- Dynamically loads founder data from a MongoDB database
+- Displays content using smooth animations
+- Allows users to submit a **Contact Us** form, which stores messages in a database
+- Is fully responsive and production-ready
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The site is deployed on **Netlify** and connected to a custom Express.js backend deployed on **Vercel** (for data APIs).
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## ✨ Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 🔍 Dynamic **Founder section** populated from a MongoDB collection
+- 📨 **Contact Form** with validation and live feedback (success/error)
+- ✅ Email input with blur-based regex validation (no premature validation nagging)
+- 💫 Smooth animations using **Framer Motion**
+- 💾 Backend data handling via **custom REST API**
+- 🎨 Fully responsive design using Tailwind CSS
+- 🚀 Deployed frontend on Netlify and backend on Vercel
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🛠️ Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Frontend:
+- **Next.js 14+**
+- **Tailwind CSS**
+- **Framer Motion**
+- **Axios** for API calls
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Backend:
+- **Node.js**
+- **Express.js**
+- **MongoDB** (accessed using MongoDB Compass)
+- **CORS**, **body-parser**, **dotenv** for middleware and configs
