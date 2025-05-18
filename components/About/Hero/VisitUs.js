@@ -22,7 +22,7 @@ export default function VisitUs() {
         </div>
 
         
-        <div className="flex flex-col md:flex-row justify-center items-center gap-y-0 gap-x-20">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-y-6 gap-x-20">
 
           
           <Link href="https://www.facebook.com/profile.php?id=61563618074835" target="_blank">
